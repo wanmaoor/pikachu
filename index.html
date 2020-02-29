@@ -19,8 +19,24 @@
       <button id="slow">慢速</button>
       <button id="middle">中速</button>
       <button id="quick">快速</button>
+
     </div>
+    <figure>
+      <audio
+        controls
+        src="./music.mp3"
+        autoplay
+      >
+        Your browser does not support the
+        <code>audio</code> element.
+      </audio>
+    </figure>
     <style>
+      figure {
+        position: fixed;
+        top: 30vh;
+        right: 0;
+      }
       .buttons {
         position: fixed;
         top: 10px;
@@ -41,7 +57,8 @@
         position: fixed;
         height: 50vh;
         top: 0;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         width: 100%;
         border: 1px solid #000;
         overflow: scroll;

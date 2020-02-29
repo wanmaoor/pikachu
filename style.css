@@ -20,7 +20,7 @@ body {
   border-color: #000 transparent transparent transparent;
   width: 0;
   height: 0;
-  /* 上面三行代码可以画一个三角形 */
+  /* 画一个三角形 */
   position: absolute;
   left: 50%;
   top: 145px;
